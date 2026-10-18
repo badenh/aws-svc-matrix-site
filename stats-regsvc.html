@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X1XJBGD6MT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-X1XJBGD6MT');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Region-Service Statistics</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="stats.css">
+</head>
+<body>
+<header>
+  <div class="titlebar">
+    <a class="brand" href="https://www.awyspr.com" rel="noopener" aria-label="awyspr">
+      <img src="https://awyspr.com/assets/images/image07.svg?v=b4a015c2" alt="awyspr">
+    </a>
+    <div class="titlebar-text">
+      <h1>Region-Service Statistics</h1>
+      <div class="meta" id="meta"></div>
+      <div class="nav"><a href="index.html">← Matrix</a> · <a href="stats-svcreg.html">Service-Region Statistics →</a></div>
+    </div>
+  </div>
+  <div class="intro">
+    <p>
+      How many AWS services does each region host, as a fraction of the full
+      service catalogue in the current snapshot?
+    </p>
+    <details class="faq" open>
+      <summary>How this is calculated</summary>
+      <ul>
+        <li><strong>Completeness</strong> = services available in region ÷ total services in catalogue, expressed as a percentage.</li>
+        <li>This is a <strong>theoretical</strong> measure: it assumes every region <em>could</em> host every service. In practice AWS does not deploy all services in all regions, and some services are intentionally regional. A region at &lt; 100% is not necessarily "incomplete" in any operational sense.</li>
+        <li><strong>Default (commercial) regions</strong> appear in black; <strong>opt-in regions</strong> appear in <span class="optin-swatch">red</span>, consistent with the main matrix.</li>
+        <li>The three tabs show all regions, default-only, and opt-in-only subsets.</li>
+      </ul>
+    </details>
+    <details class="faq" open>
+      <summary>What this is <em>not</em></summary>
+      <ol>
+        <li>
+          Service availability is based on AWS-provided data. A service being
+          available in a region does <strong>not</strong> mean that all
+          sub-services, features, or sub-features of that service are available
+          in the region. Feature-level parity varies and is not captured here.
+        </li>
+        <li>
+          Completeness is not a quality or suitability score. A high percentage
+          does not imply a region is "better"; a low percentage does not imply
+          it is "worse". Region selection depends on workload, latency,
+          residency, and pricing — none of which this page measures.
+        </li>
+        <li>
+          Only the AWS <strong>commercial partition</strong> is covered.
+          GovCloud, China, European sovereign cloud, and isolated regions are
+          excluded.
+        </li>
+      </ol>
+    </details>
+  </div>
+</header>
+
+<section class="controls">
+  <div class="controls-row">
+    <label><input type="radio" name="scope" value="all" checked> All regions</label>
+    <label><input type="radio" name="scope" value="default"> Default only</label>
+    <label><input type="radio" name="scope" value="optin"> Opt-in only</label>
+  </div>
+  <div class="controls-row">
+    <label>Sort:
+      <select id="sort-dir">
+        <option value="desc" selected>Highest first</option>
+        <option value="asc">Lowest first</option>
+      </select>
+    </label>
+  </div>
+</section>
+
+<main>
+  <section class="chart-wrap">
+    <svg id="chart" xmlns="http://www.w3.org/2000/svg"></svg>
+  </section>
+  <section class="stats-table-wrap">
+    <table id="stats-table"></table>
+  </section>
+</main>
+
+<footer>
+  <p>
+    Not affiliated with or endorsed by Amazon Web Services. All service and
+    region names are trademarks of their respective owners.
+  </p>
+  <p class="attribution">
+    Data collection and analysis scripts and presentation &copy; 2026 awyspr.
+    Visit <a href="https://www.awyspr.com" rel="noopener">www.awyspr.com</a>
+    or email
+    <a href="mailto:partnerboost@awyspr.com">partnerboost@awyspr.com</a>
+    for more information.
+  </p>
+</footer>
+
+<script src="stats-regsvc.js"></script>
+</body>
+</html>

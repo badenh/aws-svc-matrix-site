@@ -7,6 +7,9 @@ header { margin-bottom: 12px; }
 .titlebar-text { flex: 1 1 auto; }
 h1 { font-size: 28px; margin: 0; }
 .meta { color: #666; font-size: 12px; margin: 4px 0 0 0; }
+.nav { font-size: 12px; margin: 4px 0 0 0; }
+.nav a { color: #06c; text-decoration: none; }
+.nav a:hover { text-decoration: underline; }
 .intro { color: #333; font-size: 12px; max-width: none; margin: 6px 0 0 0; }
 .intro p { margin: 4px 0; }
 .intro > p { font-size: 15px; line-height: 1.5; margin: 8px 0; color: #222; }

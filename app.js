@@ -60,13 +60,14 @@
   for (const [slug, regions] of Object.entries(data.matrix)) matrixSet[slug] = new Set(regions);
 
   const changesOnlyEl = document.getElementById('changes-only');
-  if (!changes) { changesOnlyEl.disabled = true; changesOnlyEl.parentElement.title = 'No diff available'; }
+  const hasChanges = !!changes && (addedCell.size > 0 || removedCell.size > 0);
+  if (!hasChanges) { changesOnlyEl.disabled = true; changesOnlyEl.parentElement.title = 'No changes in current diff'; }
 
   const render = () => {
     const q = document.getElementById('q').value.trim().toLowerCase();
     const rf = document.querySelector('input[name=region-filter]:checked').value;
     const cat = catSel.value;
-    const changesOnly = changesOnlyEl.checked && !!changes;
+    const changesOnly = changesOnlyEl.checked && hasChanges;
 
     const geo = geoSel.value;
     // Apply structural filters (opt-in class, geo, category) first.
@@ -150,6 +151,7 @@
           const el = document.querySelector(sel);
           if (el) el.style.maxWidth = w + 'px';
         }
+        try { localStorage.setItem('arsm.matrixWidth', String(w)); } catch (_) {}
       });
     });
   };

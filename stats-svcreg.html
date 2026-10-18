@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X1XJBGD6MT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-X1XJBGD6MT');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Service-Region Statistics</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="stats.css">
+</head>
+<body>
+<header>
+  <div class="titlebar">
+    <a class="brand" href="https://www.awyspr.com" rel="noopener" aria-label="awyspr">
+      <img src="https://awyspr.com/assets/images/image07.svg?v=b4a015c2" alt="awyspr">
+    </a>
+    <div class="titlebar-text">
+      <h1>Service-Region Statistics</h1>
+      <div class="meta" id="meta"></div>
+      <div class="nav"><a href="index.html">← Matrix</a> · <a href="stats-regsvc.html">← Region-Service Statistics</a></div>
+    </div>
+  </div>
+  <div class="intro">
+    <p>
+      How broadly is each AWS service deployed, as a fraction of all regions
+      in the current snapshot?
+    </p>
+    <details class="faq" open>
+      <summary>How this is calculated</summary>
+      <ul>
+        <li><strong>Coverage</strong> = regions where the service is available ÷ regions in the chosen basis, expressed as a percentage. Each row in the chart is one service; the <span class="svcreg-swatch">blue bar</span> shows that service's coverage against the current basis.</li>
+        <li>This is a <strong>theoretical</strong> measure: it assumes every service <em>could</em> be deployed in every region. In practice AWS does not deploy all services in all regions, and some services are intentionally regional or still rolling out. A service at &lt; 100% is not necessarily "incomplete" in any operational sense.</li>
+        <li>The <strong>region basis</strong> selector switches the denominator between all regions, default (commercial) regions only, or opt-in regions only — this changes the percentages for every service, so compare like-for-like.</li>
+        <li>The <strong>category</strong> selector narrows the services shown by AWS service category; the <strong>search</strong> box filters by service name or slug.</li>
+        <li>The <strong>coverage range</strong> selectors let you slice to a band (e.g. 20–50%) in 10% steps. Useful for finding services that are partially rolled out.</li>
+        <li>A service showing <strong>0%</strong> under a given basis simply means it is not deployed in any region of that class in the current snapshot — for example, a service that only lives in opt-in regions will show 0% under <em>Default only</em>. Switch the basis to confirm. These rows are drawn with no bar rather than a tiny misleading nub.</li>
+      </ul>
+    </details>
+    <details class="faq" open>
+      <summary>What this is <em>not</em></summary>
+      <ol>
+        <li>
+          Service availability is based on AWS-provided data. A service being
+          available in a region does <strong>not</strong> mean that all
+          sub-services, features, or sub-features of that service are available
+          in the region. Feature-level parity varies by service and is not
+          captured on this page — the bar only tells you the service name
+          appears in that region's SSM inventory.
+        </li>
+        <li>
+          Coverage is <strong>not a quality or maturity score</strong>. A high
+          percentage does not imply a service is "better" or more mature; a low
+          percentage does not imply it is "worse" or newer. Some services are
+          intentionally scoped to a subset of regions (regional-only services,
+          regulated-industry services, early-launch rollouts, geo-restricted
+          features).
+        </li>
+        <li>
+          Coverage is <strong>not a demand signal</strong>. A service in only a
+          few regions does not mean customers want it in more; a service in all
+          regions does not mean it is heavily used in all of them. Rollout is
+          driven by AWS planning, not by this page.
+        </li>
+        <li>
+          Only the AWS <strong>commercial partition</strong> is covered.
+          GovCloud, China, European sovereign cloud, and isolated regions are
+          excluded from both the service list and the region basis.
+        </li>
+      </ol>
+    </details>
+  </div>
+</header>
+
+<section class="controls">
+  <div class="controls-row">
+    <label>Region basis:</label>
+    <label><input type="radio" name="scope" value="all" checked> All regions</label>
+    <label><input type="radio" name="scope" value="default"> Default only</label>
+    <label><input type="radio" name="scope" value="optin"> Opt-in only</label>
+  </div>
+  <div class="controls-row">
+    <select id="category">
+      <option value="">All categories</option>
+    </select>
+    <input id="q" type="search" placeholder="Filter services by name or slug">
+  </div>
+  <div class="controls-row">
+    <label>Sort:
+      <select id="sort-dir">
+        <option value="desc" selected>Highest first</option>
+        <option value="asc">Lowest first</option>
+      </select>
+    </label>
+  </div>
+  <div class="controls-row">
+    <label>Coverage range:
+      <select id="pct-min">
+        <option value="0" selected>0%</option>
+        <option value="10">10%</option><option value="20">20%</option>
+        <option value="30">30%</option><option value="40">40%</option>
+        <option value="50">50%</option><option value="60">60%</option>
+        <option value="70">70%</option><option value="80">80%</option>
+        <option value="90">90%</option><option value="100">100%</option>
+      </select>
+      to
+      <select id="pct-max">
+        <option value="0">0%</option>
+        <option value="10">10%</option><option value="20">20%</option>
+        <option value="30">30%</option><option value="40">40%</option>
+        <option value="50">50%</option><option value="60">60%</option>
+        <option value="70">70%</option><option value="80">80%</option>
+        <option value="90">90%</option>
+        <option value="100" selected>100%</option>
+      </select>
+    </label>
+  </div>
+</section>
+
+<main>
+  <section class="chart-wrap">
+    <svg id="chart" xmlns="http://www.w3.org/2000/svg"></svg>
+  </section>
+  <section class="stats-table-wrap">
+    <table id="stats-table"></table>
+  </section>
+</main>
+
+<footer>
+  <p>
+    Not affiliated with or endorsed by Amazon Web Services. All service and
+    region names are trademarks of their respective owners.
+  </p>
+  <p class="attribution">
+    Data collection and analysis scripts and presentation &copy; 2026 awyspr.
+    Visit <a href="https://www.awyspr.com" rel="noopener">www.awyspr.com</a>
+    or email
+    <a href="mailto:partnerboost@awyspr.com">partnerboost@awyspr.com</a>
+    for more information.
+  </p>
+</footer>
+
+<script src="stats-svcreg.js"></script>
+</body>
+</html>
