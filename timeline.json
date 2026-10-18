@@ -1,0 +1,1315 @@
+{
+  "baseline_date": "2026-08-14",
+  "events": [
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "af-south-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-east-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-east-2",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-northeast-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-northeast-2",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-northeast-3",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-south-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-south-2",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-southeast-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-southeast-2",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-southeast-3",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-southeast-4",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-southeast-5",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-southeast-6",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ap-southeast-7",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ca-central-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "ca-west-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "eu-central-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "eu-central-2",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "eu-north-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "eu-south-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "eu-south-2",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "eu-west-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "eu-west-2",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "eu-west-3",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "il-central-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "mx-central-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "sa-east-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "us-east-2",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "us-west-1",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "us-west-2",
+      "service": "uxc"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "us-east-1",
+      "service": "securityagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-19",
+      "region": "us-west-2",
+      "service": "securityagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-25",
+      "region": "ap-southeast-1",
+      "service": "timestream"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-25",
+      "region": "eu-north-1",
+      "service": "timestream"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-26",
+      "region": "ap-southeast-1",
+      "service": "account-access"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-27",
+      "region": "ap-southeast-6",
+      "service": "shield"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-27",
+      "region": "ap-southeast-1",
+      "service": "workspaces-instances"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-27",
+      "region": "ap-south-2",
+      "service": "bedrock-agentcore"
+    },
+    {
+      "action": "add",
+      "date": "2026-08-27",
+      "region": "us-west-1",
+      "service": "bedrock-agentcore"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "af-south-1",
+      "service": "timestream-influxdb"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "ap-east-1",
+      "service": "timestream-influxdb"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "ap-northeast-2",
+      "service": "timestream-influxdb"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "ap-south-2",
+      "service": "timestream-influxdb"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "ap-southeast-4",
+      "service": "timestream-influxdb"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "ap-southeast-7",
+      "service": "timestream-influxdb"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "eu-central-2",
+      "service": "timestream-influxdb"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "il-central-1",
+      "service": "timestream-influxdb"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "ap-northeast-3",
+      "service": "appstream"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "ca-west-1",
+      "service": "appstream"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "eu-central-2",
+      "service": "appstream"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "ap-northeast-1",
+      "service": "agent-registry"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "ap-southeast-2",
+      "service": "agent-registry"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "eu-west-1",
+      "service": "agent-registry"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "us-east-1",
+      "service": "agent-registry"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-01",
+      "region": "us-west-2",
+      "service": "agent-registry"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-02",
+      "region": "ap-east-1",
+      "service": "aiops"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-02",
+      "region": "eu-central-1",
+      "service": "aiops"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-02",
+      "region": "eu-west-1",
+      "service": "aiops"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-02",
+      "region": "us-east-1",
+      "service": "aiops"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-02",
+      "region": "us-east-2",
+      "service": "aiops"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-02",
+      "region": "us-west-2",
+      "service": "aiops"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-04",
+      "region": "us-west-1",
+      "service": "account-access"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-05",
+      "region": "ap-southeast-6",
+      "service": "pcs"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-07",
+      "region": "ap-south-2",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-09",
+      "region": "ap-east-2",
+      "service": "evs"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-09",
+      "region": "ap-northeast-3",
+      "service": "evs"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-09",
+      "region": "eu-south-2",
+      "service": "evs"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-09",
+      "region": "il-central-1",
+      "service": "evs"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-10",
+      "region": "af-south-1",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-10",
+      "region": "ap-east-1",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-10",
+      "region": "ap-northeast-2",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-10",
+      "region": "ap-northeast-3",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-10",
+      "region": "ca-central-1",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-10",
+      "region": "eu-south-1",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-11",
+      "region": "ap-east-2",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-11",
+      "region": "ap-southeast-3",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-11",
+      "region": "ap-southeast-4",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-11",
+      "region": "ap-southeast-5",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-11",
+      "region": "ap-southeast-6",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-11",
+      "region": "ap-southeast-7",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-11",
+      "region": "ca-west-1",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-11",
+      "region": "eu-central-2",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-11",
+      "region": "il-central-1",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-11",
+      "region": "mx-central-1",
+      "service": "dax"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-11",
+      "region": "ap-southeast-4",
+      "service": "pcs"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-11",
+      "region": "ap-northeast-1",
+      "service": "awstransform"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-11",
+      "region": "ap-northeast-2",
+      "service": "awstransform"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-11",
+      "region": "ap-south-1",
+      "service": "awstransform"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-11",
+      "region": "ap-southeast-2",
+      "service": "awstransform"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-11",
+      "region": "ca-central-1",
+      "service": "awstransform"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-11",
+      "region": "eu-central-1",
+      "service": "awstransform"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-11",
+      "region": "eu-west-2",
+      "service": "awstransform"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-11",
+      "region": "sa-east-1",
+      "service": "awstransform"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-11",
+      "region": "us-east-1",
+      "service": "awstransform"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-12",
+      "region": "ap-east-2",
+      "service": "mcs"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-12",
+      "region": "ap-northeast-3",
+      "service": "mcs"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-12",
+      "region": "ap-south-2",
+      "service": "mcs"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-12",
+      "region": "eu-central-2",
+      "service": "mcs"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-12",
+      "region": "eu-south-1",
+      "service": "mcs"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-12",
+      "region": "eu-south-2",
+      "service": "mcs"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-12",
+      "region": "il-central-1",
+      "service": "mcs"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-12",
+      "region": "mx-central-1",
+      "service": "mcs"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-16",
+      "region": "ap-south-2",
+      "service": "b2bi"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-16",
+      "region": "ap-southeast-2",
+      "service": "b2bi"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-16",
+      "region": "eu-central-1",
+      "service": "b2bi"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-16",
+      "region": "eu-west-3",
+      "service": "b2bi"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-19",
+      "region": "ap-northeast-2",
+      "service": "tnb"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-19",
+      "region": "ap-southeast-2",
+      "service": "tnb"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-19",
+      "region": "ca-central-1",
+      "service": "tnb"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-19",
+      "region": "eu-central-1",
+      "service": "tnb"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-19",
+      "region": "eu-north-1",
+      "service": "tnb"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-19",
+      "region": "eu-south-2",
+      "service": "tnb"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-19",
+      "region": "eu-west-3",
+      "service": "tnb"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-19",
+      "region": "sa-east-1",
+      "service": "tnb"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-19",
+      "region": "us-east-1",
+      "service": "tnb"
+    },
+    {
+      "action": "remove",
+      "date": "2026-09-19",
+      "region": "us-west-2",
+      "service": "tnb"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-23",
+      "region": "ap-south-2",
+      "service": "gamelift"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-23",
+      "region": "ap-southeast-3",
+      "service": "gamelift"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-23",
+      "region": "eu-south-2",
+      "service": "gamelift"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-23",
+      "region": "il-central-1",
+      "service": "gamelift"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-23",
+      "region": "mx-central-1",
+      "service": "gamelift"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-24",
+      "region": "eu-north-1",
+      "service": "aws-devops-agent"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-24",
+      "region": "eu-west-3",
+      "service": "aws-devops-agent"
+    },
+    {
+      "action": "add",
+      "date": "2026-09-30",
+      "region": "ap-southeast-1",
+      "service": "bedrock-data-automation"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-02",
+      "region": "us-east-1",
+      "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-02",
+      "region": "us-east-2",
+      "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-02",
+      "region": "us-west-2",
+      "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-03",
+      "region": "us-east-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-03",
+      "region": "ap-southeast-5",
+      "service": "pcs"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-03",
+      "region": "ap-northeast-2",
+      "service": "securityagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-03",
+      "region": "ca-central-1",
+      "service": "securityagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-03",
+      "region": "eu-north-1",
+      "service": "securityagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-03",
+      "region": "eu-west-2",
+      "service": "securityagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-east-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-east-2",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-northeast-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-northeast-2",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-northeast-3",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-south-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-south-2",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-southeast-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-southeast-2",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-southeast-3",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-southeast-4",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-southeast-5",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-southeast-6",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ap-southeast-7",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ca-central-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "ca-west-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "eu-central-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "eu-central-2",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "eu-north-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "eu-south-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "eu-south-2",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "eu-west-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "eu-west-2",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "eu-west-3",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "il-central-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "mx-central-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "sa-east-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "us-east-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "us-east-2",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "us-west-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-07",
+      "region": "us-west-2",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "af-south-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ap-east-2",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ap-northeast-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ap-northeast-2",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ap-northeast-3",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ap-south-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ap-south-2",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ap-southeast-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ap-southeast-2",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ap-southeast-3",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ap-southeast-4",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ap-southeast-6",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ca-central-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ca-west-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "eu-central-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "eu-central-2",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "eu-north-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "eu-south-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "eu-south-2",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "eu-west-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "eu-west-2",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "eu-west-3",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "il-central-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "mx-central-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "sa-east-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "us-east-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "us-east-2",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "us-west-1",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "us-west-2",
+      "service": "endusermessaging"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "ap-southeast-1",
+      "service": "odb"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "eu-north-1",
+      "service": "odb"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "eu-west-3",
+      "service": "odb"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-10",
+      "region": "us-west-1",
+      "service": "odb"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-13",
+      "region": "eu-central-2",
+      "service": "textract"
+    },
+    {
+      "action": "remove",
+      "date": "2026-10-15",
+      "region": "eu-central-2",
+      "service": "textract"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "us-east-1",
+      "service": "account-access"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "ap-east-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "ap-northeast-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "ap-south-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "ap-southeast-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "ap-southeast-2",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "ap-southeast-5",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "ap-southeast-7",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "eu-central-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "eu-north-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "eu-south-2",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "eu-west-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "us-east-2",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "us-west-2",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-16",
+      "region": "eu-south-1",
+      "service": "interconnect"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-17",
+      "region": "ap-south-2",
+      "service": "pcs"
+    },
+    {
+      "action": "remove",
+      "date": "2026-10-17",
+      "region": "ap-southeast-1",
+      "service": "timestream"
+    },
+    {
+      "action": "remove",
+      "date": "2026-10-17",
+      "region": "eu-north-1",
+      "service": "timestream"
+    }
+  ],
+  "generated": "2026-10-18T01:17:55+00:00",
+  "latest_date": "2026-10-18"
+}

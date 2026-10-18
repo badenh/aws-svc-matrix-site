@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X1XJBGD6MT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-X1XJBGD6MT');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Launch Feed — by Region</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="stats.css">
+<link rel="stylesheet" href="launch.css">
+</head>
+<body>
+<header>
+  <div class="titlebar">
+    <a class="brand" href="https://www.awyspr.com" rel="noopener" aria-label="awyspr">
+      <img src="https://awyspr.com/assets/images/image07.svg?v=b4a015c2" alt="awyspr">
+    </a>
+    <div class="titlebar-text">
+      <h1>Launch Feed — by Region</h1>
+      <div class="meta" id="meta"></div>
+      <div class="nav"><a href="index.html">← Matrix</a> · <a href="launch-svc.html">← Launch Feed by Service</a></div>
+    </div>
+  </div>
+  <div class="intro">
+    <p>
+      Region-by-region history of services added or removed since the first
+      snapshot in our collection.
+    </p>
+    <details class="faq" open>
+      <summary>How this is calculated</summary>
+      <ul>
+        <li>Each day the collector takes a fresh snapshot of the SSM global-infrastructure parameters and compares it to the previous day. Added cells (service × region appearing for the first time) become <span class="evt-add">add</span> events; removed cells become <span class="evt-remove">remove</span> events.</li>
+        <li>The <strong>first day</strong> in the archive is the <strong>baseline</strong>: nothing before it is known, so no events are recorded for that day. The feed begins at day 2.</li>
+        <li>Regions are sorted by their most recent event date (newest first). <strong>Opt-in regions</strong> appear with their code in <span class="optin-swatch">red</span>, consistent with the matrix.</li>
+        <li>Use the filters to narrow by region code or name, action, or date range.</li>
+      </ul>
+    </details>
+    <details class="faq" open>
+      <summary>What this is <em>not</em></summary>
+      <ol>
+        <li>
+          This is <strong>not</strong> an official AWS launch announcement feed.
+          Events reflect when a service × region first appeared in the AWS SSM
+          global-infrastructure data, which can lag or lead public announcements
+          by hours or days.
+        </li>
+        <li>
+          Only cells for which both the service and region existed in the
+          snapshot are tracked. New regions appear as a burst of adds on the
+          day they are first observed.
+        </li>
+        <li>
+          Only the AWS <strong>commercial partition</strong> is covered.
+        </li>
+      </ol>
+    </details>
+  </div>
+</header>
+
+<section class="controls">
+  <div class="controls-row">
+    <input id="q" type="search" placeholder="Filter regions by code or name">
+    <select id="action">
+      <option value="any">All actions</option>
+      <option value="add">Adds only</option>
+      <option value="remove">Removes only</option>
+    </select>
+  </div>
+  <div class="controls-row">
+    <label><input type="radio" name="region-filter" value="all" checked> All regions</label>
+    <label><input type="radio" name="region-filter" value="default"> Default only</label>
+    <label><input type="radio" name="region-filter" value="optin"> Opt-in only</label>
+  </div>
+  <div class="controls-row">
+    <label>From <input type="date" id="from"></label>
+    <label>To <input type="date" id="to"></label>
+    <button type="button" id="reset-dates">Reset dates</button>
+  </div>
+</section>
+
+<main>
+  <section id="feed"></section>
+</main>
+
+<footer>
+  <p>
+    Not affiliated with or endorsed by Amazon Web Services. All service and
+    region names are trademarks of their respective owners.
+  </p>
+  <p class="attribution">
+    Data collection and analysis scripts and presentation &copy; 2026 awyspr.
+    Visit <a href="https://www.awyspr.com" rel="noopener">www.awyspr.com</a>
+    or email
+    <a href="mailto:partnerboost@awyspr.com">partnerboost@awyspr.com</a>
+    for more information.
+  </p>
+</footer>
+
+<script>window.__LAUNCH_MODE__ = 'region';</script>
+<script src="launch.js"></script>
+</body>
+</html>
