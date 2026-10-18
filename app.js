@@ -59,19 +59,34 @@
   const matrixSet = {}; // slug -> Set(region)
   for (const [slug, regions] of Object.entries(data.matrix)) matrixSet[slug] = new Set(regions);
 
+  const changesOnlyEl = document.getElementById('changes-only');
+  if (!changes) { changesOnlyEl.disabled = true; changesOnlyEl.parentElement.title = 'No diff available'; }
+
   const render = () => {
     const q = document.getElementById('q').value.trim().toLowerCase();
     const rf = document.querySelector('input[name=region-filter]:checked').value;
     const cat = catSel.value;
+    const changesOnly = changesOnlyEl.checked && !!changes;
 
     const geo = geoSel.value;
     // Apply structural filters (opt-in class, geo, category) first.
     let regions = data.regions.filter(r => {
       if (rf !== 'all' && (rf === 'optin' ? !r.opt_in : r.opt_in)) return false;
       if (geo && geoOf(r.code) !== geo) return false;
+      if (changesOnly) {
+        const rr = regionRollup[r.code];
+        if (!rr || !(rr.added || rr.removed)) return false;
+      }
       return true;
     });
-    let services = data.services.filter(s => !cat || s.category === cat);
+    let services = data.services.filter(s => {
+      if (cat && s.category !== cat) return false;
+      if (changesOnly) {
+        const sr = serviceRollup[s.slug];
+        if (!sr || !(sr.added || sr.removed)) return false;
+      }
+      return true;
+    });
 
     // Search: comma-separated terms; each term filters either axis (OR within axis).
     // e.g. "ap-southeast-2, ca-west-1" -> both region columns.
@@ -143,5 +158,6 @@
   for (const el of document.querySelectorAll('input[name=region-filter]')) el.addEventListener('change', render);
   catSel.addEventListener('change', render);
   geoSel.addEventListener('change', render);
+  changesOnlyEl.addEventListener('change', render);
   render();
 })();
