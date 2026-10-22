@@ -1314,8 +1314,38 @@
       "date": "2026-10-21",
       "region": "me-south-1",
       "service": "networkmonitor"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-22",
+      "region": "ca-central-1",
+      "service": "agent-registry"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-22",
+      "region": "eu-central-1",
+      "service": "agent-registry"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-22",
+      "region": "eu-west-2",
+      "service": "agent-registry"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-22",
+      "region": "us-east-2",
+      "service": "agent-registry"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-22",
+      "region": "mx-central-1",
+      "service": "mwaa"
     }
   ],
-  "generated": "2026-10-21T11:52:22+00:00",
-  "latest_date": "2026-10-21"
+  "generated": "2026-10-22T11:56:21+00:00",
+  "latest_date": "2026-10-22"
 }

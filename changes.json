@@ -1,21 +1,53 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [],
-  "cell_removed": [
+  "cell_added": [
     {
-      "region": "me-south-1",
-      "service": "networkmonitor"
+      "region": "ca-central-1",
+      "service": "agent-registry"
+    },
+    {
+      "region": "eu-central-1",
+      "service": "agent-registry"
+    },
+    {
+      "region": "eu-west-2",
+      "service": "agent-registry"
+    },
+    {
+      "region": "us-east-2",
+      "service": "agent-registry"
+    },
+    {
+      "region": "mx-central-1",
+      "service": "mwaa"
     }
   ],
-  "new_generated": "2026-10-21T11:52:22+00:00",
-  "new_snapshot": "2026-10-21.json",
-  "old_generated": "2026-10-20T11:40:34+00:00",
-  "prior_snapshot": "2026-10-20.json",
+  "cell_removed": [],
+  "new_generated": "2026-10-22T11:56:21+00:00",
+  "new_snapshot": "2026-10-22.json",
+  "old_generated": "2026-10-21T11:52:22+00:00",
+  "prior_snapshot": "2026-10-21.json",
   "region_rollup": {
-    "me-south-1": {
-      "added": 0,
-      "removed": 1
+    "ca-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-west-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "mx-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "us-east-2": {
+      "added": 1,
+      "removed": 0
     }
   },
   "removed_regions": [],
