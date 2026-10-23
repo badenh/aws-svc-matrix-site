@@ -3,49 +3,25 @@
   "added_services": [],
   "cell_added": [
     {
-      "region": "ca-central-1",
-      "service": "agent-registry"
+      "region": "ap-northeast-1",
+      "service": "textract"
     },
     {
-      "region": "eu-central-1",
-      "service": "agent-registry"
-    },
-    {
-      "region": "eu-west-2",
-      "service": "agent-registry"
-    },
-    {
-      "region": "us-east-2",
-      "service": "agent-registry"
-    },
-    {
-      "region": "mx-central-1",
-      "service": "mwaa"
+      "region": "eu-central-2",
+      "service": "textract"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-10-22T11:56:21+00:00",
-  "new_snapshot": "2026-10-22.json",
-  "old_generated": "2026-10-21T11:52:22+00:00",
-  "prior_snapshot": "2026-10-21.json",
+  "new_generated": "2026-10-23T11:42:44+00:00",
+  "new_snapshot": "2026-10-23.json",
+  "old_generated": "2026-10-22T11:56:21+00:00",
+  "prior_snapshot": "2026-10-22.json",
   "region_rollup": {
-    "ca-central-1": {
+    "ap-northeast-1": {
       "added": 1,
       "removed": 0
     },
-    "eu-central-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-west-2": {
-      "added": 1,
-      "removed": 0
-    },
-    "mx-central-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "us-east-2": {
+    "eu-central-2": {
       "added": 1,
       "removed": 0
     }
