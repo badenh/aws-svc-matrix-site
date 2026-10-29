@@ -1356,8 +1356,26 @@
       "date": "2026-10-23",
       "region": "eu-central-2",
       "service": "textract"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-29",
+      "region": "ca-central-1",
+      "service": "pcs"
+    },
+    {
+      "action": "remove",
+      "date": "2026-10-29",
+      "region": "me-south-1",
+      "service": "arc-zonal-shift"
+    },
+    {
+      "action": "remove",
+      "date": "2026-10-29",
+      "region": "me-south-1",
+      "service": "kms"
     }
   ],
-  "generated": "2026-10-28T12:58:34+00:00",
-  "latest_date": "2026-10-28"
+  "generated": "2026-10-29T13:04:33+00:00",
+  "latest_date": "2026-10-29"
 }

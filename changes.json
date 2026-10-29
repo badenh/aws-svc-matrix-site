@@ -1,13 +1,36 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [],
-  "cell_removed": [],
-  "new_generated": "2026-10-28T12:58:34+00:00",
-  "new_snapshot": "2026-10-28.json",
-  "old_generated": "2026-10-27T12:15:27+00:00",
-  "prior_snapshot": "2026-10-27.json",
-  "region_rollup": {},
+  "cell_added": [
+    {
+      "region": "ca-central-1",
+      "service": "pcs"
+    }
+  ],
+  "cell_removed": [
+    {
+      "region": "me-south-1",
+      "service": "arc-zonal-shift"
+    },
+    {
+      "region": "me-south-1",
+      "service": "kms"
+    }
+  ],
+  "new_generated": "2026-10-29T13:04:33+00:00",
+  "new_snapshot": "2026-10-29.json",
+  "old_generated": "2026-10-28T12:58:34+00:00",
+  "prior_snapshot": "2026-10-28.json",
+  "region_rollup": {
+    "ca-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "me-south-1": {
+      "added": 0,
+      "removed": 2
+    }
+  },
   "removed_regions": [],
   "removed_services": []
 }
