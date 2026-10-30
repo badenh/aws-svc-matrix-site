@@ -1374,8 +1374,20 @@
       "date": "2026-10-29",
       "region": "me-south-1",
       "service": "kms"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-30",
+      "region": "eu-north-1",
+      "service": "interconnect"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-30",
+      "region": "me-south-1",
+      "service": "kms"
     }
   ],
-  "generated": "2026-10-29T13:04:33+00:00",
-  "latest_date": "2026-10-29"
+  "generated": "2026-10-30T12:58:48+00:00",
+  "latest_date": "2026-10-30"
 }
