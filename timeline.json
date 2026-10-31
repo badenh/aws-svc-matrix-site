@@ -1386,8 +1386,56 @@
       "date": "2026-10-30",
       "region": "me-south-1",
       "service": "kms"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-31",
+      "region": "ap-southeast-4",
+      "service": "ses"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-31",
+      "region": "ap-southeast-7",
+      "service": "ses"
+    },
+    {
+      "action": "add",
+      "date": "2026-10-31",
+      "region": "eu-south-2",
+      "service": "ses"
+    },
+    {
+      "action": "remove",
+      "date": "2026-10-31",
+      "region": "ca-central-1",
+      "service": "finspace-data"
+    },
+    {
+      "action": "remove",
+      "date": "2026-10-31",
+      "region": "eu-west-1",
+      "service": "finspace-data"
+    },
+    {
+      "action": "remove",
+      "date": "2026-10-31",
+      "region": "us-east-1",
+      "service": "finspace-data"
+    },
+    {
+      "action": "remove",
+      "date": "2026-10-31",
+      "region": "us-east-2",
+      "service": "finspace-data"
+    },
+    {
+      "action": "remove",
+      "date": "2026-10-31",
+      "region": "us-west-2",
+      "service": "finspace-data"
     }
   ],
-  "generated": "2026-10-30T12:58:48+00:00",
-  "latest_date": "2026-10-30"
+  "generated": "2026-10-31T12:34:17+00:00",
+  "latest_date": "2026-10-31"
 }

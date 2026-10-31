@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T12:58:48+00:00",
+  "generated": "2026-10-31T12:34:17+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -3453,13 +3453,6 @@
       "eu-central-1",
       "eu-west-1",
       "eu-west-2",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "finspace-data": [
-      "ca-central-1",
-      "eu-west-1",
       "us-east-1",
       "us-east-2",
       "us-west-2"
@@ -7845,13 +7838,16 @@
       "ap-southeast-1",
       "ap-southeast-2",
       "ap-southeast-3",
+      "ap-southeast-4",
       "ap-southeast-5",
+      "ap-southeast-7",
       "ca-central-1",
       "ca-west-1",
       "eu-central-1",
       "eu-central-2",
       "eu-north-1",
       "eu-south-1",
+      "eu-south-2",
       "eu-west-1",
       "eu-west-2",
       "eu-west-3",
@@ -10078,14 +10074,6 @@
       "launch_date": "2021-05-03",
       "name": "Amazon FinSpace",
       "slug": "finspace",
-      "url": null
-    },
-    {
-      "category": "Analytics",
-      "category_source": "matched",
-      "launch_date": null,
-      "name": "Amazon FinSpace Beta API",
-      "slug": "finspace-data",
       "url": null
     },
     {
