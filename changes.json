@@ -1,82 +1,13 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [
-    {
-      "region": "ap-southeast-4",
-      "service": "ses"
-    },
-    {
-      "region": "ap-southeast-7",
-      "service": "ses"
-    },
-    {
-      "region": "eu-south-2",
-      "service": "ses"
-    }
-  ],
-  "cell_removed": [
-    {
-      "region": "ca-central-1",
-      "service": "finspace-data"
-    },
-    {
-      "region": "eu-west-1",
-      "service": "finspace-data"
-    },
-    {
-      "region": "us-east-1",
-      "service": "finspace-data"
-    },
-    {
-      "region": "us-east-2",
-      "service": "finspace-data"
-    },
-    {
-      "region": "us-west-2",
-      "service": "finspace-data"
-    }
-  ],
-  "new_generated": "2026-10-31T12:34:17+00:00",
-  "new_snapshot": "2026-10-31.json",
-  "old_generated": "2026-10-30T12:58:48+00:00",
-  "prior_snapshot": "2026-10-30.json",
-  "region_rollup": {
-    "ap-southeast-4": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-southeast-7": {
-      "added": 1,
-      "removed": 0
-    },
-    "ca-central-1": {
-      "added": 0,
-      "removed": 1
-    },
-    "eu-south-2": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-west-1": {
-      "added": 0,
-      "removed": 1
-    },
-    "us-east-1": {
-      "added": 0,
-      "removed": 1
-    },
-    "us-east-2": {
-      "added": 0,
-      "removed": 1
-    },
-    "us-west-2": {
-      "added": 0,
-      "removed": 1
-    }
-  },
+  "cell_added": [],
+  "cell_removed": [],
+  "new_generated": "2026-11-01T13:28:08+00:00",
+  "new_snapshot": "2026-11-01.json",
+  "old_generated": "2026-10-31T12:34:17+00:00",
+  "prior_snapshot": "2026-10-31.json",
+  "region_rollup": {},
   "removed_regions": [],
-  "removed_services": [
-    "finspace-data"
-  ]
+  "removed_services": []
 }
