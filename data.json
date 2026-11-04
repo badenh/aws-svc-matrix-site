@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T14:18:15+00:00",
+  "generated": "2026-11-04T14:35:22+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -9099,8 +9099,18 @@
       "us-west-2"
     ],
     "wellarchitectedagent": [
+      "ap-northeast-2",
+      "ap-south-1",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "eu-west-1",
+      "eu-west-2",
+      "eu-west-3",
+      "sa-east-1",
       "us-east-1",
       "us-east-2",
+      "us-west-1",
       "us-west-2"
     ],
     "wellarchitectedtool": [
@@ -10995,7 +11005,7 @@
       "launch_date": null,
       "name": "AWS B2B Data Interchange",
       "slug": "b2bi",
-      "url": "https://aws.amazon.com/b2b-data-interchange/"
+      "url": null
     },
     {
       "category": "Storage",

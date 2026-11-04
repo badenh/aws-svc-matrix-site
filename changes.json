@@ -3,89 +3,57 @@
   "added_services": [],
   "cell_added": [
     {
-      "region": "ap-east-2",
-      "service": "interconnect"
+      "region": "ap-northeast-2",
+      "service": "wellarchitectedagent"
     },
     {
-      "region": "ap-northeast-1",
-      "service": "interconnect"
-    },
-    {
-      "region": "ap-northeast-3",
-      "service": "interconnect"
+      "region": "ap-south-1",
+      "service": "wellarchitectedagent"
     },
     {
       "region": "ap-southeast-1",
-      "service": "interconnect"
+      "service": "wellarchitectedagent"
     },
     {
       "region": "ap-southeast-2",
-      "service": "interconnect"
-    },
-    {
-      "region": "ap-southeast-4",
-      "service": "interconnect"
-    },
-    {
-      "region": "ca-central-1",
-      "service": "interconnect"
+      "service": "wellarchitectedagent"
     },
     {
       "region": "eu-central-1",
-      "service": "interconnect"
-    },
-    {
-      "region": "eu-central-2",
-      "service": "interconnect"
+      "service": "wellarchitectedagent"
     },
     {
       "region": "eu-west-1",
-      "service": "interconnect"
+      "service": "wellarchitectedagent"
     },
     {
       "region": "eu-west-2",
-      "service": "interconnect"
+      "service": "wellarchitectedagent"
     },
     {
       "region": "eu-west-3",
-      "service": "interconnect"
+      "service": "wellarchitectedagent"
     },
     {
       "region": "sa-east-1",
-      "service": "interconnect"
-    },
-    {
-      "region": "us-east-1",
-      "service": "interconnect"
-    },
-    {
-      "region": "us-east-2",
-      "service": "interconnect"
+      "service": "wellarchitectedagent"
     },
     {
       "region": "us-west-1",
-      "service": "interconnect"
-    },
-    {
-      "region": "us-west-2",
-      "service": "interconnect"
+      "service": "wellarchitectedagent"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-11-03T14:18:15+00:00",
-  "new_snapshot": "2026-11-03.json",
-  "old_generated": "2026-11-02T15:58:20+00:00",
-  "prior_snapshot": "2026-11-02.json",
+  "new_generated": "2026-11-04T14:35:22+00:00",
+  "new_snapshot": "2026-11-04.json",
+  "old_generated": "2026-11-03T14:18:15+00:00",
+  "prior_snapshot": "2026-11-03.json",
   "region_rollup": {
-    "ap-east-2": {
+    "ap-northeast-2": {
       "added": 1,
       "removed": 0
     },
-    "ap-northeast-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-northeast-3": {
+    "ap-south-1": {
       "added": 1,
       "removed": 0
     },
@@ -97,19 +65,7 @@
       "added": 1,
       "removed": 0
     },
-    "ap-southeast-4": {
-      "added": 1,
-      "removed": 0
-    },
-    "ca-central-1": {
-      "added": 1,
-      "removed": 0
-    },
     "eu-central-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-central-2": {
       "added": 1,
       "removed": 0
     },
@@ -129,19 +85,7 @@
       "added": 1,
       "removed": 0
     },
-    "us-east-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "us-east-2": {
-      "added": 1,
-      "removed": 0
-    },
     "us-west-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "us-west-2": {
       "added": 1,
       "removed": 0
     }

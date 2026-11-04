@@ -1536,8 +1536,68 @@
       "date": "2026-11-03",
       "region": "us-west-2",
       "service": "interconnect"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-04",
+      "region": "ap-northeast-2",
+      "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-04",
+      "region": "ap-south-1",
+      "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-04",
+      "region": "ap-southeast-1",
+      "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-04",
+      "region": "ap-southeast-2",
+      "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-04",
+      "region": "eu-central-1",
+      "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-04",
+      "region": "eu-west-1",
+      "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-04",
+      "region": "eu-west-2",
+      "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-04",
+      "region": "eu-west-3",
+      "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-04",
+      "region": "sa-east-1",
+      "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-04",
+      "region": "us-west-1",
+      "service": "wellarchitectedagent"
     }
   ],
-  "generated": "2026-11-03T14:18:15+00:00",
-  "latest_date": "2026-11-03"
+  "generated": "2026-11-04T14:35:22+00:00",
+  "latest_date": "2026-11-04"
 }
