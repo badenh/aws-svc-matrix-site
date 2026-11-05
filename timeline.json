@@ -1596,8 +1596,20 @@
       "date": "2026-11-04",
       "region": "us-west-1",
       "service": "wellarchitectedagent"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-05",
+      "region": "ap-east-2",
+      "service": "docdb"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-05",
+      "region": "ap-southeast-6",
+      "service": "docdb"
     }
   ],
-  "generated": "2026-11-04T14:35:22+00:00",
-  "latest_date": "2026-11-04"
+  "generated": "2026-11-05T14:41:43+00:00",
+  "latest_date": "2026-11-05"
 }

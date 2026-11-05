@@ -3,89 +3,25 @@
   "added_services": [],
   "cell_added": [
     {
-      "region": "ap-northeast-2",
-      "service": "wellarchitectedagent"
+      "region": "ap-east-2",
+      "service": "docdb"
     },
     {
-      "region": "ap-south-1",
-      "service": "wellarchitectedagent"
-    },
-    {
-      "region": "ap-southeast-1",
-      "service": "wellarchitectedagent"
-    },
-    {
-      "region": "ap-southeast-2",
-      "service": "wellarchitectedagent"
-    },
-    {
-      "region": "eu-central-1",
-      "service": "wellarchitectedagent"
-    },
-    {
-      "region": "eu-west-1",
-      "service": "wellarchitectedagent"
-    },
-    {
-      "region": "eu-west-2",
-      "service": "wellarchitectedagent"
-    },
-    {
-      "region": "eu-west-3",
-      "service": "wellarchitectedagent"
-    },
-    {
-      "region": "sa-east-1",
-      "service": "wellarchitectedagent"
-    },
-    {
-      "region": "us-west-1",
-      "service": "wellarchitectedagent"
+      "region": "ap-southeast-6",
+      "service": "docdb"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-11-04T14:35:22+00:00",
-  "new_snapshot": "2026-11-04.json",
-  "old_generated": "2026-11-03T14:18:15+00:00",
-  "prior_snapshot": "2026-11-03.json",
+  "new_generated": "2026-11-05T14:41:43+00:00",
+  "new_snapshot": "2026-11-05.json",
+  "old_generated": "2026-11-04T14:35:22+00:00",
+  "prior_snapshot": "2026-11-04.json",
   "region_rollup": {
-    "ap-northeast-2": {
+    "ap-east-2": {
       "added": 1,
       "removed": 0
     },
-    "ap-south-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-southeast-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-southeast-2": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-central-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-west-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-west-2": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-west-3": {
-      "added": 1,
-      "removed": 0
-    },
-    "sa-east-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "us-west-1": {
+    "ap-southeast-6": {
       "added": 1,
       "removed": 0
     }
