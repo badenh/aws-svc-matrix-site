@@ -3,25 +3,41 @@
   "added_services": [],
   "cell_added": [
     {
+      "region": "ca-central-1",
+      "service": "wellarchitectedagent"
+    },
+    {
       "region": "ap-east-2",
-      "service": "docdb"
+      "service": "ses"
     },
     {
       "region": "ap-southeast-6",
-      "service": "docdb"
+      "service": "ses"
+    },
+    {
+      "region": "mx-central-1",
+      "service": "ses"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-11-05T14:41:43+00:00",
-  "new_snapshot": "2026-11-05.json",
-  "old_generated": "2026-11-04T14:35:22+00:00",
-  "prior_snapshot": "2026-11-04.json",
+  "new_generated": "2026-11-06T14:19:56+00:00",
+  "new_snapshot": "2026-11-06.json",
+  "old_generated": "2026-11-05T14:41:43+00:00",
+  "prior_snapshot": "2026-11-05.json",
   "region_rollup": {
     "ap-east-2": {
       "added": 1,
       "removed": 0
     },
     "ap-southeast-6": {
+      "added": 1,
+      "removed": 0
+    },
+    "ca-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "mx-central-1": {
       "added": 1,
       "removed": 0
     }
