@@ -1632,8 +1632,14 @@
       "date": "2026-11-06",
       "region": "mx-central-1",
       "service": "ses"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-09",
+      "region": "ap-southeast-6",
+      "service": "interconnect"
     }
   ],
-  "generated": "2026-11-08T13:28:21+00:00",
-  "latest_date": "2026-11-08"
+  "generated": "2026-11-09T16:23:52+00:00",
+  "latest_date": "2026-11-09"
 }
