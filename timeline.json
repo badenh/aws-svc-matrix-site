@@ -1638,8 +1638,116 @@
       "date": "2026-11-09",
       "region": "ap-southeast-6",
       "service": "interconnect"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "af-south-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "ap-east-2",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "ap-northeast-2",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "ap-northeast-3",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "ap-south-2",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "ap-southeast-3",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "ap-southeast-4",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "ap-southeast-6",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "ca-central-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "ca-west-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "eu-central-2",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "eu-south-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "eu-west-2",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "eu-west-3",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "il-central-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "mx-central-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "sa-east-1",
+      "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-10",
+      "region": "us-west-1",
+      "service": "network-security-manager"
     }
   ],
-  "generated": "2026-11-09T16:23:52+00:00",
-  "latest_date": "2026-11-09"
+  "generated": "2026-11-10T14:56:02+00:00",
+  "latest_date": "2026-11-10"
 }

@@ -3,17 +3,153 @@
   "added_services": [],
   "cell_added": [
     {
+      "region": "af-south-1",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "ap-east-2",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "ap-northeast-2",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "ap-northeast-3",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "ap-south-2",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "ap-southeast-3",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "ap-southeast-4",
+      "service": "network-security-manager"
+    },
+    {
       "region": "ap-southeast-6",
-      "service": "interconnect"
+      "service": "network-security-manager"
+    },
+    {
+      "region": "ca-central-1",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "ca-west-1",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "eu-central-2",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "eu-south-1",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "eu-west-2",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "eu-west-3",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "il-central-1",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "mx-central-1",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "sa-east-1",
+      "service": "network-security-manager"
+    },
+    {
+      "region": "us-west-1",
+      "service": "network-security-manager"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-11-09T16:23:52+00:00",
-  "new_snapshot": "2026-11-09.json",
-  "old_generated": "2026-11-08T13:28:21+00:00",
-  "prior_snapshot": "2026-11-08.json",
+  "new_generated": "2026-11-10T14:56:02+00:00",
+  "new_snapshot": "2026-11-10.json",
+  "old_generated": "2026-11-09T16:23:52+00:00",
+  "prior_snapshot": "2026-11-09.json",
   "region_rollup": {
+    "af-south-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-east-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-northeast-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-northeast-3": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-south-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-3": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-4": {
+      "added": 1,
+      "removed": 0
+    },
     "ap-southeast-6": {
+      "added": 1,
+      "removed": 0
+    },
+    "ca-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "ca-west-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-central-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-south-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-west-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-west-3": {
+      "added": 1,
+      "removed": 0
+    },
+    "il-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "mx-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "sa-east-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "us-west-1": {
       "added": 1,
       "removed": 0
     }
