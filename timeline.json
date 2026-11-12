@@ -1746,8 +1746,86 @@
       "date": "2026-11-10",
       "region": "us-west-1",
       "service": "network-security-manager"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "ap-northeast-1",
+      "service": "cloudwatchomni"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "ap-south-1",
+      "service": "cloudwatchomni"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "ap-southeast-1",
+      "service": "cloudwatchomni"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "ap-southeast-2",
+      "service": "cloudwatchomni"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "ca-central-1",
+      "service": "cloudwatchomni"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "eu-central-1",
+      "service": "cloudwatchomni"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "eu-west-1",
+      "service": "cloudwatchomni"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "eu-west-2",
+      "service": "cloudwatchomni"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "sa-east-1",
+      "service": "cloudwatchomni"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "us-east-1",
+      "service": "cloudwatchomni"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "us-east-2",
+      "service": "cloudwatchomni"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "us-west-2",
+      "service": "cloudwatchomni"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-12",
+      "region": "us-west-1",
+      "service": "pcs"
     }
   ],
-  "generated": "2026-11-11T14:26:18+00:00",
-  "latest_date": "2026-11-11"
+  "generated": "2026-11-12T15:18:06+00:00",
+  "latest_date": "2026-11-12"
 }

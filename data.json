@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T14:26:18+00:00",
+  "generated": "2026-11-12T15:18:06+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -1661,6 +1661,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-1",
+      "us-west-2"
+    ],
+    "cloudwatchomni": [
+      "ap-northeast-1",
+      "ap-south-1",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "ca-central-1",
+      "eu-central-1",
+      "eu-west-1",
+      "eu-west-2",
+      "sa-east-1",
+      "us-east-1",
+      "us-east-2",
       "us-west-2"
     ],
     "codeartifact": [
@@ -6279,6 +6293,7 @@
       "sa-east-1",
       "us-east-1",
       "us-east-2",
+      "us-west-1",
       "us-west-2"
     ],
     "personalize": [
@@ -12425,6 +12440,14 @@
       "url": null
     },
     {
+      "category": "Management & Governance",
+      "category_source": "matched",
+      "launch_date": null,
+      "name": "CloudWatch Omni",
+      "slug": "cloudwatchomni",
+      "url": null
+    },
+    {
       "category": "Developer Tools",
       "category_source": "matched",
       "launch_date": null,
@@ -12783,6 +12806,7 @@
     "AWS Client VPN",
     "AWS Cloud WAN",
     "AWS Directory Service for Microsoft Active Directory",
+    "AWS Emulator",
     "AWS Identity and Access Management (IAM) Access Analyzer",
     "AWS Interconnect",
     "AWS Network Security Manager",
