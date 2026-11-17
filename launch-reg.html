@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="stats.css">
 <link rel="stylesheet" href="launch.css">
+<link rel="alternate" type="application/rss+xml" title="AWS Region-Service Matrix — Change Feed" href="feed.xml">
 </head>
 <body>
 <header>
@@ -29,7 +30,8 @@
         <a href="stats-regsvc.html">Region-Service Statistics</a> ·
         <a href="stats-svcreg.html">Service-Region Statistics</a> ·
         <a href="launch-svc.html">Service Launch Feed</a> ·
-        <strong>Region Launch Feed</strong>
+        <strong>Region Launch Feed</strong> ·
+        <a href="feed.xml">RSS</a>
       </div>
     </div>
   </div>
@@ -37,6 +39,10 @@
     <p>
       Region-by-region history of services added or removed since the first
       snapshot in our collection.
+    </p>
+    <p>
+      Also available as an <a href="feed.xml" type="application/rss+xml">RSS feed</a>
+      — one entry per day covering all changes, grouped by region and by service.
     </p>
     <details class="faq" open>
       <summary>How this is calculated</summary>

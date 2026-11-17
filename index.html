@@ -14,6 +14,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AWS Region-Service Matrix</title>
 <link rel="stylesheet" href="styles.css">
+<link rel="alternate" type="application/rss+xml" title="AWS Region-Service Matrix — Change Feed" href="feed.xml">
 </head>
 <body>
 <header>
@@ -29,7 +30,8 @@
         <a href="stats-regsvc.html">Region-Service Statistics</a> ·
         <a href="stats-svcreg.html">Service-Region Statistics</a> ·
         <a href="launch-svc.html">Service Launch Feed</a> ·
-        <a href="launch-reg.html">Region Launch Feed</a>
+        <a href="launch-reg.html">Region Launch Feed</a> ·
+        <a href="feed.xml">RSS</a>
       </div>
     </div>
   </div>
@@ -40,6 +42,11 @@
     <p>
       Our unofficial AWS Service Matrix builds a view from AWS' own public
       inventories and data feeds to show what is available where.
+    </p>
+    <p>
+      Daily changes are published as an <a href="feed.xml" type="application/rss+xml">RSS feed</a>
+      — one entry per day with service × region adds and removes, grouped
+      by region and by service.
     </p>
     <details class="faq" open>
       <summary>How it works</summary>

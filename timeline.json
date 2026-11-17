@@ -1828,6 +1828,12 @@
     {
       "action": "add",
       "date": "2026-11-17",
+      "region": "af-south-1",
+      "service": "supportauthz"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-17",
       "region": "ap-east-2",
       "service": "account"
     },
@@ -1868,12 +1874,30 @@
       "service": "account"
     },
     {
-      "action": "add",
+      "action": "remove",
       "date": "2026-11-17",
-      "region": "af-south-1",
-      "service": "supportauthz"
+      "region": "me-central-1",
+      "service": "ses"
+    },
+    {
+      "action": "remove",
+      "date": "2026-11-17",
+      "region": "ap-northeast-2",
+      "service": "groundstation"
+    },
+    {
+      "action": "remove",
+      "date": "2026-11-17",
+      "region": "me-south-1",
+      "service": "groundstation"
+    },
+    {
+      "action": "remove",
+      "date": "2026-11-17",
+      "region": "us-east-2",
+      "service": "observabilityadmin"
     }
   ],
-  "generated": "2026-11-17T16:02:24+00:00",
+  "generated": "2026-11-17T21:41:18+00:00",
   "latest_date": "2026-11-17"
 }
