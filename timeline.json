@@ -1824,8 +1824,56 @@
       "date": "2026-11-12",
       "region": "us-west-1",
       "service": "pcs"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-17",
+      "region": "ap-east-2",
+      "service": "account"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-17",
+      "region": "ap-southeast-5",
+      "service": "account"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-17",
+      "region": "ap-southeast-6",
+      "service": "account"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-17",
+      "region": "ap-southeast-7",
+      "service": "account"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-17",
+      "region": "ca-west-1",
+      "service": "account"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-17",
+      "region": "il-central-1",
+      "service": "account"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-17",
+      "region": "mx-central-1",
+      "service": "account"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-17",
+      "region": "af-south-1",
+      "service": "supportauthz"
     }
   ],
-  "generated": "2026-11-16T15:50:47+00:00",
-  "latest_date": "2026-11-16"
+  "generated": "2026-11-17T16:02:24+00:00",
+  "latest_date": "2026-11-17"
 }

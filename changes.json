@@ -1,13 +1,79 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [],
+  "cell_added": [
+    {
+      "region": "ap-east-2",
+      "service": "account"
+    },
+    {
+      "region": "ap-southeast-5",
+      "service": "account"
+    },
+    {
+      "region": "ap-southeast-6",
+      "service": "account"
+    },
+    {
+      "region": "ap-southeast-7",
+      "service": "account"
+    },
+    {
+      "region": "ca-west-1",
+      "service": "account"
+    },
+    {
+      "region": "il-central-1",
+      "service": "account"
+    },
+    {
+      "region": "mx-central-1",
+      "service": "account"
+    },
+    {
+      "region": "af-south-1",
+      "service": "supportauthz"
+    }
+  ],
   "cell_removed": [],
-  "new_generated": "2026-11-16T15:50:47+00:00",
-  "new_snapshot": "2026-11-16.json",
-  "old_generated": "2026-11-15T13:58:06+00:00",
-  "prior_snapshot": "2026-11-15.json",
-  "region_rollup": {},
+  "new_generated": "2026-11-17T16:02:24+00:00",
+  "new_snapshot": "2026-11-17.json",
+  "old_generated": "2026-11-16T15:50:47+00:00",
+  "prior_snapshot": "2026-11-16.json",
+  "region_rollup": {
+    "af-south-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-east-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-5": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-6": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-7": {
+      "added": 1,
+      "removed": 0
+    },
+    "ca-west-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "il-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "mx-central-1": {
+      "added": 1,
+      "removed": 0
+    }
+  },
   "removed_regions": [],
   "removed_services": []
 }
