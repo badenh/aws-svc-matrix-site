@@ -4,107 +4,26 @@
   "cell_added": [
     {
       "region": "af-south-1",
-      "service": "supportauthz"
-    },
-    {
-      "region": "ap-east-2",
-      "service": "account"
-    },
-    {
-      "region": "ap-southeast-5",
-      "service": "account"
-    },
-    {
-      "region": "ap-southeast-6",
-      "service": "account"
-    },
-    {
-      "region": "ap-southeast-7",
-      "service": "account"
-    },
-    {
-      "region": "ca-west-1",
-      "service": "account"
-    },
-    {
-      "region": "il-central-1",
-      "service": "account"
-    },
-    {
-      "region": "mx-central-1",
-      "service": "account"
-    }
-  ],
-  "cell_removed": [
-    {
-      "region": "me-central-1",
-      "service": "ses"
-    },
-    {
-      "region": "ap-northeast-2",
-      "service": "groundstation"
-    },
-    {
-      "region": "me-south-1",
-      "service": "groundstation"
+      "service": "opensearchserverless"
     },
     {
       "region": "us-east-2",
       "service": "observabilityadmin"
     }
   ],
-  "new_generated": "2026-11-17T21:41:18+00:00",
-  "new_snapshot": "2026-11-17.json",
-  "old_generated": "2026-11-16T15:50:47+00:00",
-  "prior_snapshot": "2026-11-16.json",
+  "cell_removed": [],
+  "new_generated": "2026-11-18T15:42:11+00:00",
+  "new_snapshot": "2026-11-18.json",
+  "old_generated": "2026-11-17T21:41:18+00:00",
+  "prior_snapshot": "2026-11-17.json",
   "region_rollup": {
     "af-south-1": {
       "added": 1,
       "removed": 0
     },
-    "ap-east-2": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-northeast-2": {
-      "added": 0,
-      "removed": 1
-    },
-    "ap-southeast-5": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-southeast-6": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-southeast-7": {
-      "added": 1,
-      "removed": 0
-    },
-    "ca-west-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "il-central-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "me-central-1": {
-      "added": 0,
-      "removed": 1
-    },
-    "me-south-1": {
-      "added": 0,
-      "removed": 1
-    },
-    "mx-central-1": {
-      "added": 1,
-      "removed": 0
-    },
     "us-east-2": {
-      "added": 0,
-      "removed": 1
+      "added": 1,
+      "removed": 0
     }
   },
   "removed_regions": [],

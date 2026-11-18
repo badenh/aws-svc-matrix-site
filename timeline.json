@@ -1896,8 +1896,20 @@
       "date": "2026-11-17",
       "region": "us-east-2",
       "service": "observabilityadmin"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-18",
+      "region": "af-south-1",
+      "service": "opensearchserverless"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-18",
+      "region": "us-east-2",
+      "service": "observabilityadmin"
     }
   ],
-  "generated": "2026-11-17T21:41:18+00:00",
-  "latest_date": "2026-11-17"
+  "generated": "2026-11-18T15:42:11+00:00",
+  "latest_date": "2026-11-18"
 }
