@@ -3,25 +3,49 @@
   "added_services": [],
   "cell_added": [
     {
-      "region": "af-south-1",
-      "service": "opensearchserverless"
+      "region": "ap-east-2",
+      "service": "s3control"
     },
     {
-      "region": "us-east-2",
-      "service": "observabilityadmin"
+      "region": "ap-southeast-5",
+      "service": "s3control"
+    },
+    {
+      "region": "ap-southeast-6",
+      "service": "s3control"
+    },
+    {
+      "region": "ap-southeast-7",
+      "service": "s3control"
+    },
+    {
+      "region": "mx-central-1",
+      "service": "s3control"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-11-18T15:42:11+00:00",
-  "new_snapshot": "2026-11-18.json",
-  "old_generated": "2026-11-17T21:41:18+00:00",
-  "prior_snapshot": "2026-11-17.json",
+  "new_generated": "2026-11-19T15:46:57+00:00",
+  "new_snapshot": "2026-11-19.json",
+  "old_generated": "2026-11-18T15:42:11+00:00",
+  "prior_snapshot": "2026-11-18.json",
   "region_rollup": {
-    "af-south-1": {
+    "ap-east-2": {
       "added": 1,
       "removed": 0
     },
-    "us-east-2": {
+    "ap-southeast-5": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-6": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-7": {
+      "added": 1,
+      "removed": 0
+    },
+    "mx-central-1": {
       "added": 1,
       "removed": 0
     }
