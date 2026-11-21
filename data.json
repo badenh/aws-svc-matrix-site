@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T15:29:39+00:00",
+  "generated": "2026-11-21T14:41:51+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -4245,6 +4245,7 @@
       "us-west-2"
     ],
     "interconnect": [
+      "af-south-1",
       "ap-east-2",
       "ap-northeast-1",
       "ap-northeast-3",
@@ -9934,6 +9935,14 @@
       "category": "Business Applications",
       "category_source": "matched",
       "launch_date": null,
+      "name": "Amazon Connect Health",
+      "slug": "connecthealth",
+      "url": "https://aws.amazon.com/products/connect/health/"
+    },
+    {
+      "category": "Business Applications",
+      "category_source": "matched",
+      "launch_date": null,
       "name": "Amazon Connect Participant Service",
       "slug": "connectparticipant",
       "url": null
@@ -10593,14 +10602,6 @@
       "name": "Amazon Q Developer",
       "slug": "qdeveloper",
       "url": "https://aws.amazon.com/q/developer/"
-    },
-    {
-      "category": "Unknown",
-      "category_source": null,
-      "launch_date": null,
-      "name": "Amazon Quick",
-      "slug": "quicksight",
-      "url": "https://aws.amazon.com/quicksuite/"
     },
     {
       "category": "Databases",
@@ -12003,6 +12004,14 @@
       "url": null
     },
     {
+      "category": "Unknown",
+      "category_source": null,
+      "launch_date": null,
+      "name": "AWS Quick",
+      "slug": "quicksight",
+      "url": "https://aws.amazon.com/quicksuite/"
+    },
+    {
       "category": "Customer Enablement",
       "category_source": "override",
       "launch_date": null,
@@ -12475,14 +12484,6 @@
       "url": null
     },
     {
-      "category": "Business Applications",
-      "category_source": "matched",
-      "launch_date": null,
-      "name": "Connect Health",
-      "slug": "connecthealth",
-      "url": null
-    },
-    {
       "category": "Cloud Financial Management",
       "category_source": "override",
       "launch_date": null,
@@ -12827,7 +12828,6 @@
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock AgentCore Registry",
-    "Amazon Connect Health",
     "Amazon RDS Custom for Oracle",
     "Amazon RDS Custom for SQL Server",
     "Amazon RDS for Db2",

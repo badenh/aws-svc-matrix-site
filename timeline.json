@@ -1938,8 +1938,14 @@
       "date": "2026-11-19",
       "region": "mx-central-1",
       "service": "s3control"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-21",
+      "region": "af-south-1",
+      "service": "interconnect"
     }
   ],
-  "generated": "2026-11-20T15:29:39+00:00",
-  "latest_date": "2026-11-20"
+  "generated": "2026-11-21T14:41:51+00:00",
+  "latest_date": "2026-11-21"
 }
