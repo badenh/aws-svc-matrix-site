@@ -1,23 +1,13 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [
-    {
-      "region": "af-south-1",
-      "service": "interconnect"
-    }
-  ],
+  "cell_added": [],
   "cell_removed": [],
-  "new_generated": "2026-11-21T14:41:51+00:00",
-  "new_snapshot": "2026-11-21.json",
-  "old_generated": "2026-11-20T15:29:39+00:00",
-  "prior_snapshot": "2026-11-20.json",
-  "region_rollup": {
-    "af-south-1": {
-      "added": 1,
-      "removed": 0
-    }
-  },
+  "new_generated": "2026-11-22T14:37:30+00:00",
+  "new_snapshot": "2026-11-22.json",
+  "old_generated": "2026-11-21T14:41:51+00:00",
+  "prior_snapshot": "2026-11-21.json",
+  "region_rollup": {},
   "removed_regions": [],
   "removed_services": []
 }
