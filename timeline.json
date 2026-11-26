@@ -1944,8 +1944,32 @@
       "date": "2026-11-21",
       "region": "af-south-1",
       "service": "interconnect"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-26",
+      "region": "ap-southeast-5",
+      "service": "networkmonitor"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-26",
+      "region": "ap-southeast-7",
+      "service": "networkmonitor"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-26",
+      "region": "ca-west-1",
+      "service": "networkmonitor"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-26",
+      "region": "mx-central-1",
+      "service": "networkmonitor"
     }
   ],
-  "generated": "2026-11-25T17:15:55+00:00",
-  "latest_date": "2026-11-25"
+  "generated": "2026-11-26T16:57:23+00:00",
+  "latest_date": "2026-11-26"
 }

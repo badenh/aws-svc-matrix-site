@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T17:15:55+00:00",
+  "generated": "2026-11-26T16:57:23+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -5885,7 +5885,10 @@
       "ap-southeast-2",
       "ap-southeast-3",
       "ap-southeast-4",
+      "ap-southeast-5",
+      "ap-southeast-7",
       "ca-central-1",
+      "ca-west-1",
       "eu-central-1",
       "eu-central-2",
       "eu-north-1",
@@ -5896,6 +5899,7 @@
       "eu-west-3",
       "il-central-1",
       "me-central-1",
+      "mx-central-1",
       "sa-east-1",
       "us-east-1",
       "us-east-2",
