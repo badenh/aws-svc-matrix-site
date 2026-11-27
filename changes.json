@@ -3,41 +3,17 @@
   "added_services": [],
   "cell_added": [
     {
-      "region": "ap-southeast-5",
-      "service": "networkmonitor"
-    },
-    {
-      "region": "ap-southeast-7",
-      "service": "networkmonitor"
-    },
-    {
-      "region": "ca-west-1",
-      "service": "networkmonitor"
-    },
-    {
-      "region": "mx-central-1",
-      "service": "networkmonitor"
+      "region": "us-east-2",
+      "service": "aws-devops-agent"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-11-26T16:57:23+00:00",
-  "new_snapshot": "2026-11-26.json",
-  "old_generated": "2026-11-25T17:15:55+00:00",
-  "prior_snapshot": "2026-11-25.json",
+  "new_generated": "2026-11-27T16:42:31+00:00",
+  "new_snapshot": "2026-11-27.json",
+  "old_generated": "2026-11-26T16:57:23+00:00",
+  "prior_snapshot": "2026-11-26.json",
   "region_rollup": {
-    "ap-southeast-5": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-southeast-7": {
-      "added": 1,
-      "removed": 0
-    },
-    "ca-west-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "mx-central-1": {
+    "us-east-2": {
       "added": 1,
       "removed": 0
     }

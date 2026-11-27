@@ -1968,8 +1968,14 @@
       "date": "2026-11-26",
       "region": "mx-central-1",
       "service": "networkmonitor"
+    },
+    {
+      "action": "add",
+      "date": "2026-11-27",
+      "region": "us-east-2",
+      "service": "aws-devops-agent"
     }
   ],
-  "generated": "2026-11-26T16:57:23+00:00",
-  "latest_date": "2026-11-26"
+  "generated": "2026-11-27T16:42:31+00:00",
+  "latest_date": "2026-11-27"
 }
